@@ -1,0 +1,10 @@
+model
+schema 1.1
+
+type user
+relations
+    define notify: [user]
+
+type document
+relations
+    define viewer: [user]
